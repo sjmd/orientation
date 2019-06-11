@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 title = "Orientation"
-theme = "hugo-theme-teach"
+theme = "teach"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 
