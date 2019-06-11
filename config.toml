@@ -3,7 +3,6 @@ languageCode = "en-US"
 defaultContentLanguage = "en"
 title = "Orientation"
 theme = "hugo-theme-teach"
-themesdir = "../"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 
