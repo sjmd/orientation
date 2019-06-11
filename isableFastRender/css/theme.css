@@ -42,13 +42,19 @@ body {
 	padding: 0;
 }
 
+body #chapter h1 {
+    font-size: 3.5rem;
+	padding-bottom: .5em;
+	margin: .25em auto .5em;
+}
+
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    #chapter h1 {
+    body #chapter h1 {
         font-size: 3rem;
     }
 }
 @media only all and (max-width: 47.938em) {
-    #chapter h1 {
+    body #chapter h1 {
         font-size: 2.5rem;
     }
 }
@@ -272,7 +278,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 
 #sidebar ul.topics > li > a {
     font-size: 1.1rem;
-	font-weight: 700;
 }
 #sidebar ul.topics > li > a b {
     font-weight: inherit;
@@ -313,12 +318,12 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	#sidebar ul.topics:after {
 		display:block;
 		width: 2px;
-		border-left: 2px dashed var(--PRIMARY-COLOR-300);
 		position: absolute;
 		top: 0;
 		bottom: 0;
 		left: 1.5rem;
 		content: '';
+		background-color: var(--PRIMARY-COLOR-300);
 		z-index: 1;
 	}
 
@@ -394,7 +399,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #body .padding {
     padding: 3rem 4rem;
 	box-shadow: 0px 0px 50px 0px rgba(0,0,40,.3);
-	min-height: calc(100vh - 6rem);
+	min-height: 100vh;
 	position: relative;
 }
 
@@ -461,15 +466,13 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     text-align: center;
 	font-size: 1.5rem;
 	font-weight: 400;
-	margin: 0 auto;
+	margin: 0;
 }
 #chapter h1 {
-    font-size: 3.6rem;
-    border-bottom: 4px dashed var(--PRIMARY-COLOR-100);
-	padding: 0 0 .5em;
-	margin: .25em auto .5em;
+    font-size: 5rem;
+    border-bottom: 4px solid var(--PRIMARY-COLOR-100);
+	padding: 6vh auto;
 }
-
 #chapter p {
     text-align: center;
     font-size: 1.2rem;
@@ -488,7 +491,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 
 	.entry-nav .btn {
-		padding: .5em 1.25em;
+		padding: .5em 1em;
 	}
 
 	.entry-nav .btn.nav-prev {
