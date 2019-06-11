@@ -1181,32 +1181,7 @@ td {
         top: 0;
         bottom: 0;
         z-index: 10;
-        background: rgba(0, 0, 20, 0.7);
+        background: rgba(255,255,255, 0.85);
         cursor: pointer;
-
-}
-
-.parent-element {
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-#sidebar #shortcuts li {
-    padding: 2px 0;
-    list-style: none;
-}
-
-#sidebar ul li .read-icon {
-    display: none;
-}
-
-#sidebar #shortcuts h3 {
-    color: white ;
-    margin-top:1rem;
-    padding-left: 1rem;
-}
-
-#searchResults {
-    text-align: left;
+	}
 }
