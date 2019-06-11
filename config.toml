@@ -5,7 +5,6 @@ title = "Orientation"
 theme = "teach"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
-
 [params]
 	editURL = "https://github.com/killermann/sjmd-course-orientation/content"
 	helpURL = "https://sjmd.space/help"
