@@ -1,0 +1,8 @@
+[context.production.environment]
+	HUGO_VERSION = "0.55.6"
+
+[context.branch-deploy.environment]
+	HUGO_VERSION = "0.55.6"
+
+[context.deploy-preview.environment]
+	HUGO_VERSION = "0.55.6"

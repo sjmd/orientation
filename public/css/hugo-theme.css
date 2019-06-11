@@ -1,0 +1,13 @@
+/* Insert here special css for hugo theme, on top of any other imported css */
+
+
+/* Table of contents */
+
+.progress {
+    position:absolute;
+    background-color: rgba(246, 246, 246, 0.97);
+    width: auto;
+    border: thin solid #ECECEC;
+    display:none;
+    z-index:200;
+}

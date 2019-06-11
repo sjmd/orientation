@@ -1,0 +1,21 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+title = "Orientation"
+theme = "hugo-theme-teach"
+themesdir = "../"
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+
+[params]
+	editURL = "https://github.com/killermann/sjmd-course-orientation/content"
+	helpURL = "https://sjmd.space/help"
+	description = "Social Justice, Minus Dogma Course"
+	author = "Sam Killermann"
+	showVisitedLinks = true
+	disableBreadcrumb = false
+	disableNextPrev = false
+	themeVariant = "purple"
+
+[outputs]
+	home = [ "HTML", "RSS", "JSON"]
