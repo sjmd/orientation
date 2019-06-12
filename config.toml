@@ -1,14 +1,14 @@
 baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
-title = "Orientation"
+title = "SJMD Orientation"
 theme = "teach"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
 	editURL = "https://github.com/killermann/sjmd-course-orientation/tree/master/content/"
 	helpURL = "https://sjmd.space/help"
-	description = "Social Justice, Minus Dogma Course"
+	description = "Social Justice, Minus Dogma Course + Community"
 	author = "Sam Killermann"
 	showVisitedLinks = true
 	disableBreadcrumb = false

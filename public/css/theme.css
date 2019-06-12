@@ -18,7 +18,7 @@
 	display: inline-block;
 	height: 1.1em;
 	line-height: 1;
-	vertical-align: text-bottom;
+	vertical-align: center;
 }
 
 .fa-fw svg {
@@ -40,17 +40,6 @@ body {
 	font-family: var(--sans-serif);
 	margin: 0;
 	padding: 0;
-}
-
-@media only all and (min-width: 48em) and (max-width: 59.938em) {
-    #chapter h1 {
-        font-size: 3rem;
-    }
-}
-@media only all and (max-width: 47.938em) {
-    #chapter h1 {
-        font-size: 2.5rem;
-    }
 }
 
 a {
@@ -306,7 +295,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     display: block;
 }
 #sidebar ul li > a {
-    padding: .75rem 3rem;
+    padding: .5em 3rem;
 	position: relative;
 }
 
@@ -400,7 +389,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 
 .entry-footer {
 	margin-top: 1.5rem;
-	padding: 1.5rem 1rem;
+	padding: 1.5rem 0;
 	border-top: 2px solid var(--PRIMARY-COLOR-100);
 	font-size: .8em;
 	display: flex;
@@ -452,10 +441,14 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	}
 
 #chapter {
-	padding: 6vw 0;
+	padding: 4vw 0;
 	max-width: 600px;
 	margin: 0 auto;
 }
+
+	#chapter #body-inner {
+		padding: 0;
+	}
 
 #chapter h3 {
     text-align: center;
@@ -468,6 +461,19 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     border-bottom: 4px dashed var(--PRIMARY-COLOR-100);
 	padding: 0 0 .5em;
 	margin: .25em auto .5em;
+}
+
+
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+    #chapter h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only all and (max-width: 47.938em) {
+    #chapter h1 {
+        font-size: 2.6rem;
+    }
 }
 
 #chapter p {
@@ -484,8 +490,12 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	margin: 4vw auto;
 	text-align: center;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
+
+	.entry-nav.chapter-nav {
+		justify-content: space-around;
+	}
 
 	.entry-nav .btn {
 		padding: .5em 1.25em;
@@ -499,9 +509,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 		padding-right: .75em;
 	}
 
-#footer p {
-    margin: 0;
-}
 body {
     font-family:var(--sans-serif);
 	color:var(--dark-grey);
