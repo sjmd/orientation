@@ -1,8 +1,7 @@
 +++
-title = "BLRUGHshshs"
-date = 2019-06-10T15:46:12-05:00
+title = "Apply Topically"
 chapter = true
-weight = 2
+weight = 4
 +++
 
 ### Orientation

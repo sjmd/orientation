@@ -1,6 +1,5 @@
 +++
 title = "Welcome"
-date = 2019-06-10T15:46:12-05:00
 chapter = true
 weight = 1
 +++
