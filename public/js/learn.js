@@ -90,7 +90,7 @@ jQuery(document).ready(function() {
         return false;
     });
     jQuery('[data-clear-history-toggle]').on('click', function() {
-        sessionStorage.clear();
+        localStorage.clear();
         location.reload();
         return false;
     });
@@ -232,10 +232,10 @@ jQuery(window).on('load', function() {
     });
 
     // store this page in session
-    sessionStorage.setItem(jQuery('body').data('url'), 1);
+    localStorage.setItem(jQuery('body').data('url'), 1);
 
-    // loop through the sessionStorage and see if something should be marked as visited
-    for (var url in sessionStorage) {
-        if (sessionStorage.getItem(url) == 1) jQuery('[data-nav-id="' + url + '"]').addClass('visited');
+    // loop through the localStorage and see if something should be marked as visited
+    for (var url in localStorage) {
+        if (localStorage.getItem(url) == 1) jQuery('[data-nav-id="' + url + '"]').addClass('visited');
     }
 });
