@@ -306,7 +306,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     display: block;
 }
 #sidebar ul li > a {
-    padding: .5rem 3rem;
+    padding: .75rem 3rem;
 	position: relative;
 }
 
