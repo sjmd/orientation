@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
-title = "SJMD Orientation"
+title = "Orientation"
 theme = "teach"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
