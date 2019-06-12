@@ -16,6 +16,6 @@ As you can see, Orientation includes:
 - Navigating the Community
 - Finding Resources
 
-**You can likely buzz through Orientation in about 30 minutes, give or take**. You're welcome to take longer, of course. This isn't a race.
+**You can likely buzz through Orientation in about 45 minutes, give or take**. You're welcome to take longer, of course. This isn't a race.
 
 And know that this will all be here for you to refer back to throughout the course (you will not be tested on this 😬).
