@@ -1,8 +1,8 @@
-+++
-title = "Apply Topically"
-chapter = true
-weight = 4
-+++
+---
+title: "Apply Topically"
+chapter: true
+weight: 4
+---
 
 ### Orientation
 

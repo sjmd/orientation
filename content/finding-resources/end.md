@@ -1,5 +1,5 @@
-+++
-title = "End"
-weight = 2
-disableNextPrev = true
-+++
+---
+title: "End"
+weight: 2
+disableNextPrev: true
+---

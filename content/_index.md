@@ -1,7 +1,7 @@
-+++
-title = "Orientation"
+---
+title: "Orientation"
 chapter: true
-+++
+---
 ### SJMD Course
 # Orientation
 

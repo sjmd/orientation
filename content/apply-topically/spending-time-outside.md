@@ -1,7 +1,7 @@
-+++
-title = "Spending Time Outside"
-weight = 1
-+++
+---
+title: "Spending Time Outside"
+weight: 1
+---
 
 Within each of the main course modules there are 7 topics (not Orientation, which you’re clicking through now, or Graduation).
 

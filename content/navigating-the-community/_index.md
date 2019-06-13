@@ -1,8 +1,8 @@
-+++
-title = "Navigating the Community"
-chapter = true
-weight = 5
-+++
+---
+title: "Navigating the Community"
+chapter: true
+weight: 5
+---
 
 ### Orientation
 

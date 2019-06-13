@@ -1,8 +1,8 @@
-+++
-title = "Meet Your Facilitators"
-chapter = true
-weight = 2
-+++
+---
+title: "Meet Your Facilitators"
+chapter: true
+weight: 2
+---
 
 ### Orientation
 

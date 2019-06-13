@@ -1,8 +1,8 @@
-+++
-title = "Tell Us About Yourself"
-weight = 4
-reply = "https://forms.gle/G9yNmnrTTLbH53rs6"
-+++
+---
+title: "Tell Us About Yourself"
+weight: 4
+reply: "https://forms.gle/G9yNmnrTTLbH53rs6"
+---
 
 You know how we said Orientation would take around 45 minutes? **We hope you'll spend around 15 of those minutes telling us about yourself, anonymously, via a questionnaire.**
 

@@ -1,7 +1,7 @@
-+++
-title = "Readings, Watchings, & Listenings (Oh my!)"
-weight = 2
-+++
+---
+title: "Readings, Watchings, & Listenings (Oh my!)"
+weight: 2
+---
 
 Topics explore an idea related to the module, and will be comprised of steps that include the following:
 
