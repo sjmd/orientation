@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>resolutionData</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>_index.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>582147621.00010896</real>
+				<key>version</key>
+				<dict>
+					<key>ac9e8b5b9a0a1458dc494ace51a217aaa6d7b9369b418d6f1571dcd59285486f</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>readings-watchings-listenings.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>582147621.00011003</real>
+				<key>version</key>
+				<dict>
+					<key>ac9e8b5b9a0a1458dc494ace51a217aaa6d7b9369b418d6f1571dcd59285486f</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>spending-time-outside.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>582147625.91335201</real>
+				<key>version</key>
+				<dict>
+					<key>ac9e8b5b9a0a1458dc494ace51a217aaa6d7b9369b418d6f1571dcd59285486f</key>
+					<integer>4</integer>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>_index.md</string>
+		</array>
+		<array>
+			<string>spending-time-outside.md</string>
+		</array>
+		<array>
+			<string>readings-watchings-listenings.md</string>
+		</array>
+	</array>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>ac9e8b5b9a0a1458dc494ace51a217aaa6d7b9369b418d6f1571dcd59285486f</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

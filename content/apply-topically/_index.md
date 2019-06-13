@@ -1,15 +1,11 @@
-+++
+---
 title = "Apply Topically"
 chapter = true
 weight = 4
-+++
+---
 
 ### Orientation
 
-# Welcome! Hi! We're glad you're here.
+# Apply Topically
 
-Congrats: you’re in the course 🙂
-
-You successfully made it through the sign up process, you clicked on all the right links, and you found Orientation.
-
-Now let's walk through how this is all going to work.
+Let's talk about the topics, how to pace yourself, and when you know to move on.
