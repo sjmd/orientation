@@ -450,6 +450,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	    background: white;
 	}
 
+	img {
+		max-width: 100%;
+		height: auto;
+	}
 #chapter {
 	padding: 4vw 1rem;
 	max-width: 600px;
@@ -466,11 +470,13 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	font-weight: 400;
 	margin: 0 auto;
 }
+
 #chapter h1 {
     font-size: 3.6rem;
     border-bottom: 4px dashed var(--PRIMARY-COLOR-100);
 	padding: 0 0 .5em;
 	margin: .25em auto .5em;
+	color: var(--PRIMARY-COLOR-700);
 }
 
 
@@ -529,6 +535,7 @@ h1, h2, h3, h4, h5, h6 {
     text-rendering: optimizeLegibility;
     font-weight: 800;
 	line-height: 1.1;
+	color: var(--PRIMARY-COLOR-900);
 }
 
 h1 {
@@ -536,17 +543,17 @@ h1 {
 }
 
 blockquote {
-    border-left: 10px solid var(--PRIMARY-COLOR-100);
+    border-left: .25rem dashed var(--PRIMARY-COLOR-300);
+	padding-left: 1.5rem;
+	margin-left: 1.25rem;
+	font-family: var(--serif);
 }
-blockquote p {
-    font-size: 1.1rem;
-    color: #999;
-}
+
 blockquote cite {
     display: block;
     text-align: right;
-    color: #666;
-    font-size: 1.2rem;
+    opacity: .7;
+    font-size: .8em;
 }
 div.notices {
     margin: 2rem 0;
@@ -811,14 +818,14 @@ section.attachments.grey .attachments-files {
 }
 
 pre {
-    border: 3px dashed var(--PRIMARY-COLOR-300);
+    border: 2px dashed var(--PRIMARY-COLOR-300);
     border-radius: 20px;
     position: relative;
     padding: 20px;
     line-height: 1.3;
     background: var(--PRIMARY-COLOR-100);
     overflow: visible;
-    margin: 3em auto 2em;
+    margin: 2.5em auto 2em;
 	white-space: normal;
 	word-wrap: normal;
 }
@@ -828,18 +835,24 @@ pre {
         position: absolute;
         font-size: 12px;
         padding: 3px 6px;
-        top: -14px;
+        top: -12px;
         left: 18px;
         font-weight: bold;
         background: var(--PRIMARY-COLOR-300);
         border-radius: 8px;
         color: var(--PRIMARY-COLOR-900);
-        border: 2px solid white;
     }
 
+	code {
+		background: var(--PRIMARY-COLOR-100);
+		color: var(--PRIMARY-COLOR-900);
+	    padding: .25em .5em;
+	    border-radius: 4px;
+	}
+
 	pre code {
+		font-size: .8em;
 		font-family: var(--sans-serif);
-		color: color: var(--PRIMARY-COLOR-900);
 	}
 
 hr {
@@ -1101,10 +1114,6 @@ td {
     vertical-align: middle;
 }
 
-.featherlight img {
-    margin: 0 !important;
-}
-
 #top-bar {
 	margin: 0 auto;
 	font-size: .8em;
@@ -1114,12 +1123,14 @@ td {
 	position: relative;
 	z-index: 9999;
 	padding: 10px;
+	line-height: 40px;
 }
 
 	#top-bar .far {
-		padding: 10px 1rem;
 		font-size: 28px;
 		text-align: center;
+		min-width: 40px;
+		display: block;
 	}
 
 	#top-bar .fa-times {
@@ -1142,6 +1153,7 @@ td {
     text-overflow: ellipsis;
     display: inline-block;
     float: left;
+	line-height: 40px;
 }
 #body #breadcrumbs span {
     padding: 0 0.1rem;
@@ -1182,11 +1194,6 @@ td {
 
 	#body .padding {
 		box-shadow: none;
-	}
-
-	#top-bar .far {
-		font-size: 18px;
-		padding: 11px;
 	}
 
     .sidebar-hidden #body {

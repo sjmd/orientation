@@ -8,4 +8,4 @@ weight: 4
 
 # Apply Topically
 
-Let's talk about the topics, how to pace yourself, and when you know to move on.
+Let's talk about the topics, how to pace yourself, and choosing your own adventure.

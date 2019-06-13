@@ -10,11 +10,6 @@ You know how we said Orientation would take around 45 minutes? **We hope you'll 
 
 The magic of the internet is we have _no idea_ where you're coming from, or who all is coming to this course + community.
 
-```
-Testing The magic of the internet is we have _no idea_ where you're coming from, or who all is coming to this course + community.
-
-```
-
 We're thrilled to see who's here!
 
 And we'll be sharing some of these results with the Community (again, anonymously -- this is in no way connected to your account or tracked).
