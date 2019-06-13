@@ -1,7 +1,7 @@
----
-title: "The How"
-weight: 2
----
++++
+title = "The How"
+weight = 2
++++
 
 What you're reading right is a step called **The How** within the "Topic" called **Welcome**.  _Topics_ are bite-sized bits of the _Modules_. The Module you're in right now is Orientation.
 

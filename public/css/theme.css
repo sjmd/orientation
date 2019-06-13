@@ -7,18 +7,18 @@
 	--serif: "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif", "Times","Source Serif Pro", serif;
 
 	/* Set the Primary Colors */
-    --PRIMARY-COLOR-100: #EAEFF2;
-    --PRIMARY-COLOR-300: #CCD7DE;
-    --PRIMARY-COLOR-500: #8E9BA5;
-    --PRIMARY-COLOR-700: #5A6A74;
-    --PRIMARY-COLOR-900: #2A3136;
+    --PRIMARY-COLOR-100: #e8f4f8;
+    --PRIMARY-COLOR-300: #c6e3ee;
+    --PRIMARY-COLOR-500: #81bad0;
+    --PRIMARY-COLOR-700: #508aab;
+    --PRIMARY-COLOR-900: #254050;
 }
 
-.fa svg, .fab svg, .fal svg, .far svg, .fas svg {
+.fa svg, .fab svg, .fal svg, .far svg, .fas svg, .inline-svg svg {
 	display: inline-block;
-	height: 1.1em;
+	height: 1em;
 	line-height: 1;
-	vertical-align: center;
+	margin-bottom: -.125em;
 }
 
 .fa-fw svg {
@@ -81,10 +81,6 @@ a:hover {
     width: 100%;
 }
 
-pre {
-    position: relative;
-    color: #ffffff;
-}
 .bg {
     background: #fff;
     border: 1px solid #eaeaea;
@@ -440,8 +436,22 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 		margin-right: auto;
 	}
 
+	.type-wrap li {
+		position: relative;
+	}
+
+	.type-wrap li + li{
+		margin-top: .5em;
+	}
+
+	.type-wrap li > span.inline-svg {
+		position: absolute;
+	    left: -1.5em;
+	    background: white;
+	}
+
 #chapter {
-	padding: 4vw 0;
+	padding: 4vw 1rem;
 	max-width: 600px;
 	margin: 0 auto;
 }
@@ -800,46 +810,41 @@ section.attachments.grey .attachments-files {
     margin-top: 5px;
 }
 
-code, kbd, pre, samp {
-    font-family: "Consolas", menlo, monospace;
-    font-size: 92%;
-}
-code {
-    border-radius: 2px;
-    white-space: nowrap;
-    color: #5e5e5e;
-    background: #FFF7DD;
-    border: 1px solid #fbf0cb;
-    padding: 0px 2px;
-}
-code + .copy-to-clipboard {
-    margin-left: -1px;
-    border-left: 0 !important;
-    font-size: inherit !important;
-    vertical-align: middle;
-    height: 21px;
-    top: 0;
-}
 pre {
-    padding: 1rem;
-    margin: 2rem 0;
-    background: #282c34;
-    border: 0;
-    border-radius: 2px;
-    line-height: 1.15;
+    border: 3px dashed var(--PRIMARY-COLOR-300);
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+    line-height: 1.3;
+    background: var(--PRIMARY-COLOR-100);
+    overflow: visible;
+    margin: 3em auto 2em;
+	white-space: normal;
+	word-wrap: normal;
 }
-pre code {
-    color: whitesmoke;
-    background: inherit;
-    white-space: inherit;
-    border: 0;
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-}
+
+    pre:before {
+        content: "FIELDWORK";
+        position: absolute;
+        font-size: 12px;
+        padding: 3px 6px;
+        top: -14px;
+        left: 18px;
+        font-weight: bold;
+        background: var(--PRIMARY-COLOR-300);
+        border-radius: 8px;
+        color: var(--PRIMARY-COLOR-900);
+        border: 2px solid white;
+    }
+
+	pre code {
+		font-family: var(--sans-serif);
+		color: color: var(--PRIMARY-COLOR-900);
+	}
+
 hr {
 	border: none;
-    border-bottom: 4px solid var(--PRIMARY-COLOR-100);
+    border-bottom: 4px solid var(--PRIMARY-COLOR-300);
 	margin: 0;
 }
 .page-title {
@@ -869,9 +874,7 @@ hr {
 #body-inner .tabs-wrapper.ui-theme-badges .tabs-nav li.current a {
     background: #4d5257;
 }
-#body-inner pre {
-    white-space: pre-wrap;
-}
+
 .tabs-wrapper pre {
     margin: 1rem 0;
     border: 0;

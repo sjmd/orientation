@@ -1,8 +1,8 @@
 body {
     /* Set the Green Theme Colors */
-    --PRIMARY-COLOR-100: #EBFFEE;
-    --PRIMARY-COLOR-300: #ADEFB5;
-    --PRIMARY-COLOR-500: #3AB54A;
-    --PRIMARY-COLOR-700: #0B8B1B;
-    --PRIMARY-COLOR-900: #004E0A;
+    --PRIMARY-COLOR-100: #e9fff6;
+    --PRIMARY-COLOR-300: #a4f4d8;
+    --PRIMARY-COLOR-500: #34cc6d;
+    --PRIMARY-COLOR-700: #0aaf28;
+    --PRIMARY-COLOR-900: #00660f;
 }

@@ -1,8 +1,8 @@
 body {
     /* Set the Purple Theme Colors */
-    --PRIMARY-COLOR-100: #FFE8FE;
-    --PRIMARY-COLOR-300: #EFB3ED;
-    --PRIMARY-COLOR-500: #92278F;
-    --PRIMARY-COLOR-700: #7E067B;
-    --PRIMARY-COLOR-900: #580055;
+    --PRIMARY-COLOR-100: #ffefff;
+    --PRIMARY-COLOR-300: #edcbf6;
+    --PRIMARY-COLOR-500: #8633c5;
+    --PRIMARY-COLOR-700: #7008b6;
+    --PRIMARY-COLOR-900: #4e007e;
 }
