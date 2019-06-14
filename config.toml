@@ -13,7 +13,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 	showVisitedLinks = true
 	disableBreadcrumb = false
 	disableNextPrev = false
-	themeVariant = "green"
+	themeVariant = ""
 
 [outputs]
 	home = [ "HTML", "RSS", "JSON"]

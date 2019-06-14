@@ -1,40 +1,3 @@
-// Scrollbar Width function
-function getScrollBarWidth() {
-    var inner = document.createElement('p');
-    inner.style.width = "100%";
-    inner.style.height = "200px";
-
-    var outer = document.createElement('div');
-    outer.style.position = "absolute";
-    outer.style.top = "0px";
-    outer.style.left = "0px";
-    outer.style.visibility = "hidden";
-    outer.style.width = "200px";
-    outer.style.height = "150px";
-    outer.style.overflow = "hidden";
-    outer.appendChild(inner);
-
-    document.body.appendChild(outer);
-    var w1 = inner.offsetWidth;
-    outer.style.overflow = 'scroll';
-    var w2 = inner.offsetWidth;
-    if (w1 == w2) w2 = outer.clientWidth;
-
-    document.body.removeChild(outer);
-
-    return (w1 - w2);
-};
-
-function setMenuHeight() {
-    $('#sidebar .highlightable').height($('#sidebar').innerHeight() - $('#header-wrapper').height() - 40);
-    $('#sidebar .highlightable').perfectScrollbar('update');
-}
-
-// for the window resize
-$(window).resize(function() {
-    setMenuHeight();
-});
-
 // debouncing function from John Hann
 // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 (function($, sr) {
@@ -71,10 +34,6 @@ jQuery(document).ready(function() {
         $( this ).parent().parent().children('ul').toggle() ;
         return false;
     });
-
-    var sidebarStatus = searchStatus = 'open';
-    $('#sidebar .highlightable').perfectScrollbar();
-    setMenuHeight();
 
     jQuery('#overlay').on('click', function() {
         jQuery(document.body).toggleClass('sidebar-hidden');
@@ -215,21 +174,6 @@ jQuery(document).ready(function() {
 });
 
 jQuery(window).on('load', function() {
-
-    function adjustForScrollbar() {
-        if ((parseInt(jQuery('#body-inner').height()) + 83) >= jQuery('#body').height()) {
-            jQuery('.nav.nav-next').css({ 'margin-right': getScrollBarWidth() });
-        } else {
-            jQuery('.nav.nav-next').css({ 'margin-right': 0 });
-        }
-    }
-
-    // adjust sidebar for scrollbar
-    adjustForScrollbar();
-
-    jQuery(window).smartresize(function() {
-        adjustForScrollbar();
-    });
 
     // store this page in session
     localStorage.setItem(jQuery('body').data('url'), 1);
