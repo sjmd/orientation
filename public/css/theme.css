@@ -1176,6 +1176,7 @@ td {
 	}
 
 	#sidebar-toggle-span {
+		display: none;
 		position: fixed;
 		left: 280px;
 		top: 40px;
@@ -1214,10 +1215,6 @@ td {
 }
 #body #breadcrumbs span {
     padding: 0 0.1rem;
-}
-
-.sidebar-hidden {
-	overflow: hidden;
 }
 
 	.sidebar-hidden #body {
@@ -1268,6 +1265,10 @@ td {
 		box-shadow: 0px -10px 40px rgba(0,0,0,.3);
 	}
 
+	.sidebar-hidden #sidebar-toggle-span {
+		left: auto;
+	}
+
 	#top-bar .fa-bars {
 		display: inline-block;
 	}
@@ -1294,7 +1295,6 @@ td {
 	}
 
     .sidebar-hidden #body {
-        overflow: hidden;
 		margin-left: 0;
     }
 
