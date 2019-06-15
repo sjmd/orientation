@@ -1,6 +1,6 @@
 ---
 title: "Pacing Yourself"
-weight: 3
+weight: 4
 ---
 
 When you start Module 1, we encourage you to take however long you need to make your participation in the course a meaningful experience.

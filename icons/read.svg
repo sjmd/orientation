@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg class="icon-read" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <path d="M50 34c-4-8-12-14-9-24L8 13C3 31 25 41 20 59l30-15c2-3 1-7 0-10z" fill="#92a2aa"/>
   <path d="M8 38l9-6a19 19 0 0 1 5 6l-10 5a19 19 0 0 0 0-4 42 42 0 0 0-4-1z" fill="#943435"/>
   <path d="M58 33c-4-9-13-17-10-28L10 9C4 30 30 41 24 62l35-17c1-4 0-8-1-12z" fill="#b0bcc5"/>

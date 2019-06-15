@@ -10,7 +10,7 @@
     --PRIMARY-COLOR-100: #e8f4f8;
     --PRIMARY-COLOR-300: #c6e3ee;
     --PRIMARY-COLOR-500: #81bad0;
-    --PRIMARY-COLOR-700: #508aab;
+    --PRIMARY-COLOR-700: #487B99;
     --PRIMARY-COLOR-900: #254050;
 }
 
@@ -136,16 +136,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 
 #header #logo-svg path {
     fill: #fff;
-}
-
-@media only all and (max-width: 47.938em) {
-    #sidebar-toggle-span {
-        display: inline;
-    }
-
-	#sidebar-toggle-span a:after{
-		display: none !important;
-	}
 }
 
 #sidebar {
@@ -448,10 +438,17 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 		margin-top: .5em;
 	}
 
-	.type-wrap li > span.inline-svg {
+	li > span.inline-svg {
 		position: absolute;
 	    left: -1.5em;
 	    background: white;
+	}
+
+	li > input[type="checkbox"]{
+		position: absolute;
+		left: -2.5em;
+		height: 2em;
+		width: 2em;
 	}
 
 	img {
@@ -472,6 +469,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     text-align: center;
 	font-size: 1.5rem;
 	font-weight: 400;
+	color: var(--PRIMARY-COLOR-700);
 	margin: 0 auto;
 }
 
@@ -480,9 +478,26 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     border-bottom: 4px dashed var(--PRIMARY-COLOR-100);
 	padding: 0 0 .5em;
 	margin: .25em auto .5em;
-	color: var(--PRIMARY-COLOR-700);
+	color: var(--PRIMARY-COLOR-900);
 }
 
+#checkpoint .icon-checkered-flag {
+	width: 100%;
+    height: 2em;
+    margin: 1em auto;
+    text-align: center;
+	position: relative;
+}
+
+	#checkpoint .icon-checkered-flag:after {
+		border-bottom: 4px dashed var(--PRIMARY-COLOR-300);
+		height: 4px;
+		width: 80%;
+		content: '';
+		position: absolute;
+		top: calc(50% - 2px);
+		left: 10%;
+	}
 
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
     #chapter h1 {
@@ -539,7 +554,6 @@ h1, h2, h3, h4, h5, h6 {
     text-rendering: optimizeLegibility;
     font-weight: 800;
 	line-height: 1.1;
-	color: var(--PRIMARY-COLOR-900);
 }
 
 h1 {
@@ -889,6 +903,7 @@ pre {
 
 	pre code {
 		font-size: .8em;
+		padding: 0;
 		font-family: var(--sans-serif);
 	}
 
@@ -1159,6 +1174,7 @@ td {
 	align-items: center;
 	position: relative;
 	z-index: 9999;
+	height: 40px;
 }
 
 	#top-bar .far {
@@ -1211,8 +1227,8 @@ td {
     text-overflow: ellipsis;
     display: inline-block;
     float: left;
-	line-height: 40px;
 }
+
 #body #breadcrumbs span {
     padding: 0 0.1rem;
 }
@@ -1254,6 +1270,7 @@ td {
 
 	#sidebar-toggle-span {
 		position: relative;
+		display:inline-block;
 		top: auto;
 		left: auto;
 		box-shadow: none;

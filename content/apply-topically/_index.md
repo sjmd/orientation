@@ -1,7 +1,7 @@
 ---
 title: "Apply Topically"
 chapter: true
-weight: 4
+weight: 3
 ---
 
 ### Orientation

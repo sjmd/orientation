@@ -1,7 +1,7 @@
 ---
 title: "Navigating the Community"
 chapter: true
-weight: 5
+weight: 4
 ---
 
 ### Orientation

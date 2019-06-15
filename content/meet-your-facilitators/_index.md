@@ -1,7 +1,7 @@
 ---
 title: "Meet Your Facilitators"
 chapter: true
-weight: 2
+weight: 6
 ---
 
 ### Orientation

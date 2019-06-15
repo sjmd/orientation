@@ -1,7 +1,7 @@
 ---
 title: "Navigating the Course"
 chapter: true
-weight: 3
+weight: 2
 ---
 
 ### Orientation

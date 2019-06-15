@@ -1,0 +1,15 @@
+<svg class="icon-checkered-flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path style="fill:#333;" d="M19 13a17 17 0 0 0-10 5l-3-8a17 17 0 0 1 10-5l3 8z"/>
+  <path style="fill:#fff;" d="M30 13a59 59 0 0 0-11 0l-3-8a60 60 0 0 1 11 0l3 8z"/>
+  <path style="fill:#333;" d="M42 13a61 61 0 0 1-12 0l-3-8a61 61 0 0 0 12 0z"/>
+  <path style="fill:#fff;" d="M52 8a17 17 0 0 1-10 5l-3-8a17 17 0 0 0 10-5l3 8zM22 21a17 17 0 0 0-10 5l-3-8a17 17 0 0 1 10-5z"/>
+  <path style="fill:#333;" d="M33 21a61 61 0 0 0-11 0l-3-8a60 60 0 0 1 11 0l3 8z"/>
+  <path style="fill:#fff;" d="M45 21a59 59 0 0 1-12 0l-3-8a61 61 0 0 0 12 0l3 8z"/>
+  <path style="fill:#333;" d="M55 16a17 17 0 0 1-10 5l-3-8a17 17 0 0 0 10-5l3 8zM25 29a17 17 0 0 0-10 5l-3-8a17 17 0 0 1 10-5l3 8z"/>
+  <path style="fill:#fff;" d="M36 29a61 61 0 0 0-11 0l-3-8a60 60 0 0 1 11 0l3 8z"/>
+  <path style="fill:#333;" d="M48 29a59 59 0 0 1-12 0l-3-8a59 59 0 0 0 12 0z"/>
+  <path style="fill:#fff;" d="M58 24a17 17 0 0 1-10 5l-3-8a17 17 0 0 0 10-5l3 8zM28 37a17 17 0 0 0-10 5l-3-8a17 17 0 0 1 10-5z"/>
+  <path style="fill:#333;" d="M39 37a60 60 0 0 0-11 0l-3-8a61 61 0 0 1 11 0l3 8z"/>
+  <path style="fill:#fff;" d="M51 37a60 60 0 0 1-12 0l-3-8a59 59 0 0 0 12 0l3 8z"/>
+  <path style="fill:#333;" d="M61 33a17 17 0 0 1-10 4l-3-8a17 17 0 0 0 10-5l3 9zM26 64h-2L3 7h2l21 57z"/>
+</svg>
