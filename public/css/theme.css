@@ -14,6 +14,10 @@
     --PRIMARY-COLOR-900: #254050;
 }
 
+#instantclick-bar {
+	background: var(--PRIMARY-COLOR-500);
+}
+
 .fa svg, .fab svg, .fal svg, .far svg, .fas svg, .inline-svg svg {
 	display: inline-block;
 	height: 1em;
@@ -1264,7 +1268,7 @@ td {
 	}
 
 #sidebar .fa-history {
-	margin-right: .75rem;
+	margin-right: .3rem;
 }
 
 @media only all and (max-width: 59.938em) {
