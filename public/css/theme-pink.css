@@ -1,0 +1,8 @@
+body {
+    /* Set the Pink Theme Colors */
+    --PRIMARY-COLOR-100: #fff2fa;
+    --PRIMARY-COLOR-300: #ffc2e6;
+    --PRIMARY-COLOR-500: #eb2ab6;
+    --PRIMARY-COLOR-700: #b10079;
+    --PRIMARY-COLOR-900: #4a0038;
+}
