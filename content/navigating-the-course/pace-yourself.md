@@ -11,4 +11,4 @@ Also, the Topics and steps within each Module are broken up into bite-sized piec
 
 You've likely noticed little checkmarks popping up when you've visited a page (look to the left, or open the menu if you're on your phone). Those are breadcrumbs you can use to find your way back to the Topic you left off on.
 
-Speaking of Topics...
+Let's talk more about that.
