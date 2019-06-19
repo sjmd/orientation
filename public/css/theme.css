@@ -465,6 +465,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	padding: 4vw 1rem;
 	max-width: 600px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 	#chapter #body-inner {
@@ -472,7 +473,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	}
 
 #chapter h3 {
-    text-align: center;
 	font-size: 1.5rem;
 	font-weight: 400;
 	color: var(--PRIMARY-COLOR-700);
@@ -535,8 +535,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 
 #chapter p {
-    text-align: center;
     font-size: 1.2rem;
+	line-height: 1.2;
 }
 #footer {
     padding: 3rem 1rem;
