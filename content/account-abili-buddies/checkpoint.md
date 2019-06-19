@@ -5,6 +5,8 @@ pre: "🏁"
 checkpoint: true
 ---
 
+<h1 class="entry-title type-wrap">Checkpoint</h1>
+
 Another account-abili-buddy you can rely on throughout the course is the checkpoints.
 
 These are opportunities for you to hold yourself accountable, by making sure you've completed the key steps in the Topic or Module you just experienced.
