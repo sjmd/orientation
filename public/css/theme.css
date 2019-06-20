@@ -424,6 +424,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	padding:1.5rem;
 }
 
+	#body-inner ul {
+		list-style: none;
+	}
+
 	.entry-title {
 		margin: 4vw auto;
 	}
@@ -436,6 +440,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 
 	.type-wrap li {
 		position: relative;
+		line-height: 1.3;
 	}
 
 	.type-wrap li + li{
@@ -465,27 +470,39 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	padding: 4vw 1rem;
 	max-width: 600px;
 	margin: 0 auto;
-	text-align: center;
+	font-size: 1.2em;
 }
 
 	#chapter #body-inner {
 		padding: 0;
 	}
 
-#chapter h3 {
-	font-size: 1.5rem;
-	font-weight: 400;
-	color: var(--PRIMARY-COLOR-700);
-	margin: 0 auto;
-}
+	#chapter h3 {
+		font-size: 1.5rem;
+		font-weight: 400;
+		color: var(--PRIMARY-COLOR-700);
+		margin: 0 auto;
+	}
 
-#chapter h1 {
-    font-size: 3.6rem;
-    border-bottom: 4px dashed var(--PRIMARY-COLOR-100);
-	padding: 0 0 .5em;
-	margin: .25em auto .5em;
-	color: var(--PRIMARY-COLOR-900);
-}
+	#chapter h1 {
+	    font-size: 3.6rem;
+	    border-bottom: 4px dashed var(--PRIMARY-COLOR-100);
+		padding: 0 0 .5em;
+		margin: .25em auto .5em;
+		color: var(--PRIMARY-COLOR-900);
+	}
+
+	#chapter h1, #chapter h3, #chapter h5, #chapter p {
+		text-align: center;
+	}
+
+	#chapter ol {
+		line-height: 1.2;
+	}
+
+	#chapter li + li {
+		margin-top: 1em;
+	}
 
 #checkpoint .icon-checkered-flag {
 	width: 100%;
@@ -534,10 +551,6 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 
-#chapter p {
-    font-size: 1.2rem;
-	line-height: 1.2;
-}
 #footer {
     padding: 3rem 1rem;
     color: #b3b3b3;
@@ -1204,11 +1217,11 @@ td {
 }
 
 	#top-bar .far {
-		font-size: 28px;
+		font-size: 22px;
 		text-align: center;
-		width: 30px;
-		height: 30px;
-		line-height: 30px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
 		display: inline-block;
 		-webkit-transition: .25s ease-in-out;
 		   -moz-transition: .25s ease-in-out;
