@@ -27,7 +27,7 @@
 
 })(jQuery, 'smartresize');
 
-InstantClick.on('change', function() { // Replaces jQuery(window).on('load', function() {
+jQuery(window).on('load', function() { // Replaces  InstantClick.on('change', function() {
 
     jQuery('#sidebar .category-icon').on('click', function() {
         $( this ).toggleClass("fa-angle-down fa-angle-right") ;
@@ -72,7 +72,7 @@ InstantClick.on('change', function() { // Replaces jQuery(window).on('load', fun
 
     jQuery('input, textarea').keydown(function (e) {
          //  left and right arrow keys
-         if (e.which == '37' || e.which == '39') {
+         if (e.which == '37' || e.which == '39' || e.which == '68' || e.which == '82') {
              e.stopPropagation();
          }
      });
@@ -82,10 +82,17 @@ InstantClick.on('change', function() { // Replaces jQuery(window).on('load', fun
       if(e.which == '37') {
         jQuery('.nav .nav-prev').click();
       }
-
       // next links - right arrow key
       if(e.which == '39') {
         jQuery('.nav .nav-next').click();
+      }
+      // discourse link - 'd' key
+      if(e.which == '68') {
+        jQuery('.nav .discourse-link').click();
+      }
+      // reply link - 'r' key
+      if(e.which == '82') {
+        jQuery('.nav .reply-link').click();
       }
     });
 
@@ -200,4 +207,5 @@ InstantClick.on('change', function() { // Replaces jQuery(window).on('load', fun
     for (var url in localStorage) {
         if (localStorage.getItem(url) == 1) jQuery('[data-nav-id="' + url + '"]').addClass('visited');
     }
+
 });

@@ -72,7 +72,7 @@ a:hover {
 #body a.highlight:after {
     display: block;
     content: "";
-    height: .1em;
+    height: 2px;
     width: 0%;
     background-color: currentColor !important;
     -webkit-transition: width 0.25s ease-out;
@@ -134,6 +134,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	color: white;
 	font-size: 24px;
 	margin: 0 .25em;
+	line-height: 1;
 	letter-spacing: .04em;
 	text-rendering: optimizeLegibility;
 }
@@ -409,6 +410,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
         position: static;
         padding: 0;
     }
+
+	#header span {
+		font-size: 18px;
+	}
 }
 @media only all and (max-width: 47.938em) {
     #body .padding {
@@ -426,6 +431,11 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 
 	#body-inner ul {
 		list-style: none;
+		margin: 1.5em 0;
+	}
+
+	#body-inner ol {
+		margin: 1.5em 0;
 	}
 
 	.entry-title {
@@ -444,13 +454,14 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	}
 
 	.type-wrap li + li{
-		margin-top: .5em;
+		margin-top: 1em;
 	}
 
 	li > span.inline-svg {
 		position: absolute;
-	    left: -1.5em;
-	    background: white;
+		margin-top: -.2em;
+		font-size: 1.4em;
+		left: -1.2em;
 	}
 
 	li > input[type="checkbox"]{
@@ -768,7 +779,7 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover
 }
 
 p {
-    margin: 1rem 0;
+    margin: 1.5em 0;
 }
 
 figcaption h4 {
@@ -936,13 +947,11 @@ pre {
 	code {
 		background: var(--PRIMARY-COLOR-100);
 		color: var(--PRIMARY-COLOR-900);
-	    padding: .25em .5em;
 	    border-radius: 4px;
 	}
 
 	pre code {
 		font-size: .8em;
-		padding: 0;
 		font-family: var(--sans-serif);
 	}
 
@@ -1217,7 +1226,7 @@ td {
 }
 
 	#top-bar .far {
-		font-size: 22px;
+		font-size: 24px;
 		text-align: center;
 		width: 40px;
 		height: 40px;
@@ -1331,6 +1340,10 @@ td {
 
 	#top-bar .fa-bars {
 		display: inline-block;
+	}
+
+	#top-bar .far {
+		font-size: 18px;
 	}
 
 	#top-bar .fa-chevron-left {
