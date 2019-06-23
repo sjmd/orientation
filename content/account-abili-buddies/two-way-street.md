@@ -11,4 +11,4 @@ See the little "Suggest Edits" and "Get Help" links at the bottom of this page? 
 
 **Get help** will take you to a page with other links and pathways to find support, or call attention to issues.
 
-And you can always email us (socialjusticeminusdogma@gmail.com will go to the course Facilitators)
+And you can always email us (team@sjmd.space will go to the course Facilitators)
