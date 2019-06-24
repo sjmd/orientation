@@ -6,3 +6,9 @@
 
 [context.deploy-preview.environment]
 	HUGO_VERSION = "0.55.6"
+
+[[redirects]]
+	from = "https://sjmd-course-orientation.netlify.com/*"
+	to = "https://orientation.course.sjmd.space/:splat"
+	status = 301
+	force = true #COMMENT: ensure that we always redirect
