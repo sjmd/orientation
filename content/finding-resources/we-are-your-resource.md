@@ -1,6 +1,6 @@
 ---
 title: "We Are Your Resource"
-weight: 3
+weight: 4
 ---
 
 If checking your email and visiting the help page don't do it, lean on us. **The team supporting this course _is_ your resource.**

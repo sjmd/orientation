@@ -1,9 +1,10 @@
 ---
 title: "Browse the Hub"
 weight: 2
+draft: true
 ---
 
-If the thing you're looking for isn't in your email, it's probably the Hub, somewhere. **Use the search to find it quickly**.
+If the thing you're looking for isn't in your email, it's probably [The Hub](https://hub.sjmd.space), somewhere. **Use the search to find it quickly**.
 
 Most of the resources linked throughout the course exist in some form on the Hub.
 
