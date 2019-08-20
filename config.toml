@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
-title = "Orientation"
+title = "Module 0"
 theme = "teach"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 relativeURLs = true
