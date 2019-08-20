@@ -3,7 +3,7 @@ title: "Phone a Friend"
 weight: 1
 ---
 
-The online community exists here to serve as a support system for bringing these conversations into your real life. To do that, you'll need to have these conversations _outside_ of the SJMD Community.
+All of the online aspects of SJMD exist to serve as support systems for bringing these conversations into your real life. To do that, you'll need to have these conversations _in your real life._
 
 We'll start small.
 

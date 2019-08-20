@@ -5,7 +5,7 @@ weight: 3
 
 Orientation has a bunch of Topics that you will progress through as you click the "Next" buttons at the bottom of each page.
 
-If you’re on a big screen, you’ll see them on the left under the “Orientation" header (if you're on a mobile device, click the three bars icon).
+If you’re on a bigger screen, you’ll see them on the left under the “Orientation" header (if you're on a mobile device, click the three bars icon).
 
 ![SJMD Course Overview](/images/sjmd-course-overview.jpg)
 

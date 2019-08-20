@@ -8,8 +8,8 @@ relativeURLs = true
 
 [params]
 	editURL = "https://github.com/sjmd/orientation/tree/master/content/"
-	helpURL = "https://sjmd.space/help"
-	description = "Social Justice, Minus Dogma Course + Community"
+	helpURL = "https://course.sjmd.space/help"
+	description = "Social Justice, Minus Dogma Course Orientation"
 	author = "Sam Killermann"
 	showVisitedLinks = true
 	disableBreadcrumb = false

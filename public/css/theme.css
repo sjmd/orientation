@@ -14,6 +14,14 @@
     --PRIMARY-COLOR-900: #254050;
 }
 
+::-moz-selection { /* Code for Firefox */
+	background: var(--PRIMARY-COLOR-300);
+}
+
+::selection {
+	background: var(--PRIMARY-COLOR-300);
+}
+
 #instantclick-bar {
 	background: var(--PRIMARY-COLOR-500);
 }
@@ -128,20 +136,21 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 	display: flex;
 	align-items: center;
 }
+	#header #logo svg {
+		width: 2.5rem;
+		height: auto;
+		margin-left: -.5rem;
+		padding: 0 .25rem;
+	}
 
-#header span {
-	font-weight: 900;
-	color: white;
-	font-size: 24px;
-	margin: 0 .25em;
-	line-height: 1;
-	letter-spacing: .04em;
-	text-rendering: optimizeLegibility;
-}
-
-#header #logo-svg path {
-    fill: #fff;
-}
+	#header #logo span {
+		font-weight: 900;
+		color: white;
+		font-size: 24px;
+		line-height: 1;
+		letter-spacing: .04em;
+		text-rendering: optimizeLegibility;
+	}
 
 #sidebar {
     background-color: var(--PRIMARY-COLOR-100);
@@ -917,6 +926,14 @@ section.attachments.grey .attachments-files {
     margin-bottom: 0px;
     margin-top: 5px;
 }
+
+	.type-wrap small {
+		padding: 20px;
+		border-radius: 20px;
+		display: inline-block;
+	    line-height: 1.4;
+	    background: var(--PRIMARY-COLOR-100);
+	}
 
 pre {
     border: 2px dashed var(--PRIMARY-COLOR-300);

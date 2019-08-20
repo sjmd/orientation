@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint"
-weight: 4
+weight: 6
 pre: "🏁"
 checkpoint: true
 ---
@@ -18,4 +18,4 @@ Here's what a checkpoint will look like in the course:
 I have...
 
 - <input type="checkbox" class="checkpoint-checkbox" id="checkbox-1"> <label for="checkbox-1">Completed the Welcome Questionnaire ([here's the link](https://forms.gle/A2tDBHjAYb8R3ciC9)), or actively chosen not to complete it.</label>
-- <input type="checkbox" class="checkpoint-checkbox" id="checkbox-2"> <label for="checkbox-2">Visited the SJMD Community and successfully logged in ([link](https://community.sjmd.space))</label>
+- <input type="checkbox" class="checkpoint-checkbox" id="checkbox-2"> <label for="checkbox-2">Checked my email to make sure emails from team@sjmd.space aren't going to my spam.</label>
