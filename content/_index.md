@@ -1,5 +1,5 @@
 ---
-title: "Orientation"
+title: "Module 0"
 chapter: true
 ---
 ### SJMD Course
